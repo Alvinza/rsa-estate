@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern house logo with different roof angles and window placement -->
+  <g fill="white" stroke="white" stroke-width="2">
+    <!-- Main house shape -->
+    <path d="M 40,100 L 100,40 L 160,100 L 160,180 L 40,180 Z" />
+    <!-- Chimney -->
+    <rect x="130" y="50" width="15" height="30" />
+    <!-- Window -->
+    <rect x="70" y="120" width="60" height="40" fill="black" />
+    <path d="M 70,140 L 130,140" stroke="white" stroke-width="3" />
+    <path d="M 100,120 L 100,160" stroke="white" stroke-width="3" />
+  </g>
+</svg>

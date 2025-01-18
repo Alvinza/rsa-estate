@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+* {
+    font-family: Outfit;
+}
+
+.mobileMenuText ul a {
+    color: black;
+    text-decoration: none;
+}
+.mobileMenuText ul a:hover {
+    color: rgb(137, 118, 118);
+}
+.footerLinks  ul a {
+    color: grey;
+    text-decoration: none;
+}
