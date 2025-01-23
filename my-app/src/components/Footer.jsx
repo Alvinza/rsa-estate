@@ -3,14 +3,19 @@ import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
+    // Full-width footer with dark background
     <div className='pt-10 px-6 pb-5 md:px-20 lg:px-32 bg-gray-950 w-full overflow-hidden' id='Footer'>
+        {/* Footer content container */}
         <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
+            {/* Company description section */}
             <div className='w-full md:w-1/3 mb-8 md:mb-0'>
                 <img src={assets.logo_dark} alt="" style={{width: "60px"}}/>
                 <p className='text-gray-400 mt-4'>
                     Lorem ipsum dolor sit amet consectetu id, laudantium, doloribus, quaerat eum.
                 </p>
             </div>          
+            
+            {/* Quick links section */}
             <div className='footerLinks w-full md:w-1/5 mb-8 md:mb-0'>
                 <h3 className='text-white text-lg font-bold mb-4 ml-7'>Company</h3>
                 <ul className='flex flex-col gap-2 text-gray-400'>
@@ -20,6 +25,8 @@ const Footer = () => {
                     <a href="/" className='hover:text-white'>Priavcy policy</a>
                 </ul>
             </div>
+            
+            {/* Newsletter subscription section */}
             <div className='w-full md:w-1/3'>
                  <h3 className='text-white text-lg font-bold mb-4 '>Subscribe to our newsletter</h3>
                  <p className='text-gray-400 mb-4 max-w-80 '>
@@ -32,6 +39,8 @@ const Footer = () => {
                  </div>
             </div>
         </div>
+        
+        {/* Copyright section */}
         <div className='text-center text-gray-500 mt-10 border-t border-gray-700 py-4'> 
             Copyright 2025 &copy; Alvin Zondi All Right Reserved
         </div>
