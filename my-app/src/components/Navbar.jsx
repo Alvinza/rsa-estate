@@ -24,9 +24,8 @@ const Navbar = () => {
 
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
-        {/* Main navigation container with logo and desktop menu */}
+        {/* navigation container with logo and desktop menu */}
         <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
-          {/* Logo image */}
           <img src={assets.logo} alt="" style={{width: "70px"}}/>
           
           {/* Desktop navigation links */}
