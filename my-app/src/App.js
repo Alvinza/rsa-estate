@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="w-full overflow-hidden">
+     {/* Toast notifications container */}
       <ToastContainer />
       <Header />
       <About />
