@@ -1,3 +1,7 @@
+/**
+ * Renders customer feedback cards with images, star ratings, and text.
+ * Uses motion animations for entrance effects.
+ */
 import React from 'react';
 import { assets, testimonialsData } from '../assets/assets';
 import { motion } from "motion/react";
@@ -23,6 +27,7 @@ const Testimonials = () => {
         Real stories from those who found home with us
       </p>
 
+      {/* Grid of testimonial cards */}
       <div className='flex flex-wrap justify-center gap-8'>
         {testimonialsData.map((testimonial, index) => (
           <div
