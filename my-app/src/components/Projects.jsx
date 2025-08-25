@@ -1,3 +1,7 @@
+/**
+ * Displays a responsive, animated project slider with navigation buttons.
+ * Adapts layout dynamically based on screen size.
+ */
 import React, { useEffect, useState } from "react";
 import { assets, projectsData } from "../assets/assets";
 import { motion } from "motion/react";
@@ -73,6 +77,7 @@ const Projects = () => {
             transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`,
           }}
         >
+          {/* Grid of projects */}
           {projectsData.map((project, index) => (
             <div
               key={index}
