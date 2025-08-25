@@ -1,3 +1,7 @@
+/**
+ * Implements responsive navigation with desktop menu and mobile hamburger menu.
+ * Includes scroll-lock behavior when the mobile menu is open.
+ */
 import React, { useEffect, useState } from "react";
 import { assets } from "../assets/assets";
 
