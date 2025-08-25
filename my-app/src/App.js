@@ -1,3 +1,7 @@
+/**
+ * Root component that imports and renders all sections of the application.
+ * Includes Toast notifications, global styling, and main layout structure.
+ */
 import "./App.css";
 import About from "./components/About";
 import Header from "./components/Header";
