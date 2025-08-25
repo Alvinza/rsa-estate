@@ -1,3 +1,7 @@
+/**
+ * Provides company info, quick navigation links, and newsletter subscription.
+ * Implements responsive layout with copyright.
+ */
 import React from "react";
 import { assets } from "../assets/assets";
 
