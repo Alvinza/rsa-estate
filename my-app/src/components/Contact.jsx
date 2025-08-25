@@ -58,6 +58,7 @@ const Contact = () => {
         onSubmit={onSubmit}
         className="max-w-2xl mx-auto text-gray-600 pt-8"
       >
+        {/*  Name input field  */}
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">
             Your name
@@ -70,6 +71,7 @@ const Contact = () => {
             />
           </div>
 
+          {/*  Email input field  */}
           <div className="w-full md:w-1/2 text-left md:pl-4">
             Your email
             <input
@@ -82,6 +84,7 @@ const Contact = () => {
           </div>
         </div>
 
+        {/*  Message input field  */}
         <div className="my-6 text-left">
           Message
           <textarea
