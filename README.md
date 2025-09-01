@@ -4,6 +4,12 @@ A premium static real estate website showcasing luxury homes in South Africa. Th
 
 ## 🌐 Live Demo
 **[View Live Website](https://rsa-estate.onrender.com/)**
+## 📸 Screenshots
+
+![App Screenshot](./src/assets/screenshot.png)
+
+---
+
 
 ## 🏡 Features
 
